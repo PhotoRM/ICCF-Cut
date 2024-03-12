@@ -15,7 +15,9 @@ Then, you can try:
 to extract the Halpha lightcurve. Each lightcurve file should contain 3 columns: `MJD`, `FLux` and `Flux error`.
 
 Please note that there is a variable `gap` that needs to be set manually in `iccfcut.py`.
-It should be a list with length equal to the observational seasons of the lightcurves. The *i* th value of `gap` should be larger than the last observation date of the *i* th season, but less than the first observation date of the *i+1* th season.
+It should be a list with:
+* length equal to the observational seasons of the lightcurves;
+* the *i* th value of `gap` should be larger than the last observation date of the *i* th season, but less than the first observation date of the *i+1* th season.
 
 You are welcome to use and modify ICCF-Cut, and please acknowledge its use with a citation to:
 
