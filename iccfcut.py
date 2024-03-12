@@ -1,10 +1,4 @@
 # before doing iccfcut, please make sure the host component has been removed.
-
-# need modification when using:
-# contf: filename of continuum band (eg. fgbc.txt)
-# linef: filename of line band (eg. frbc.txt)
-# ratio: Ha line ratio in line band (the value in this file is specifically for Mrk 841)
-
 import matplotlib.pyplot as plt
 import numpy as np
 import os
@@ -82,7 +76,7 @@ plt.figure()
 plt.errorbar(x1,y1,yerr=dy1,fmt='.',c='r')
 plt.errorbar(x2,y2,yerr=dy2,fmt='.',c='b')
 plt.errorbar(x3,y3,yerr=dy3,fmt='.',c='black')
-plt.legend(labels=[contf[1],linef[1],'Ha'],frameon=1)
+plt.legend(labels=['g','r','Ha'],frameon=1)
 
 plt.xlabel('MJD/day')
 plt.ylabel('Normalized flux')
