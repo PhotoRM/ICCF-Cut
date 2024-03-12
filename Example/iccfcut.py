@@ -7,7 +7,7 @@ import argparse, sys
 
 contf=sys.argv[1] # continuum band lightcurve
 linef=sys.argv[2] # line band lightcurve
-ratio=float(sys.argv[3]) # Ha ratio in the line band, determined from the spectrum
+ratio=float(sys.argv[3]) # Ha ratio in the line band, determined from the spectrum (0.18 for Mrk 841)
 
 a1=np.loadtxt(contf).T
 a2=np.loadtxt(linef).T
