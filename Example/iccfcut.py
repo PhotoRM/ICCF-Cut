@@ -40,7 +40,7 @@ def define_alpha(fx1,fy1,fx2,fy2):
     return alphan
 
 # devide the lightcurves into different seasons and calculate the ratio for each season
-gap=[58000,58450,58800,59150,59500,60000]
+gap=[58000,58450,58800,59150,59500,60000] # each value corresponds to the end of each season (or the start of the next season)
 for p in range(len(gap)-1):
     select1=(x1>gap[p]) & (x1<gap[p+1])
     x1c,y1c,dy1c=x1[select1],y1[select1],dy1[select1]
