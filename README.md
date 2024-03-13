@@ -1,4 +1,4 @@
-# ICCFCut
+# ICCF-Cut
 
 **ICCF-Cut**, proposed by [Ma et al. 2023](https://iopscience.iop.org/article/10.3847/1538-4357/acc4c1), is a tool designed for broadband PRM. It extracts the emission line lightcurve with two broadband lightcurves.
 
