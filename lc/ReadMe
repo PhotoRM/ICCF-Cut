@@ -1,0 +1,9 @@
+We provide the processed lightcurves for each source, including:
+
+	source_g_host.txt	host-subtracted g band lightcurve
+	source_r_host.txt	host-subtracted r band lightcurve
+	source_Halpha.txt	extracted Halpha lightcurve using ICCF-Cut
+
+For sources with silmutaneous SRM Hbeta/Halpha lightcurves, we also provide the processed lightcurves marked with 'part' in the file name.
+
+For all the lightcurves listed here, 3 columns in the txt file are MJD, flux (1e-11 erg/s/cm^2) and flux error (1e-11 erg/s/cm^2), respectively.
