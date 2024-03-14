@@ -19,11 +19,11 @@ It should be a list with:
 * length equal to the observational seasons of the lightcurves;
 * the *i* th value of `gap` should be larger than the last observation date of the *i* th season, but less than the first observation date of the *i+1* th season.
 
-We provide an example of Mrk 841 in `Example` directory. To extract the Halpha lightcurve of Mrk 841, you can try:
+We provide an example of Mrk 841 in the `Example` directory. To extract the Halpha lightcurve of Mrk 841, you can try:
 
     $ python iccfcut.py Mrk841g.txt Mrk841r.txt 0.18
 
-We provide the data of the final lightcurves used for the delay estimations of 23 AGNs in Ma et al. 2024 (submitted) in `lightcurves` directory.
+We provide the data of the final lightcurves used for the delay estimations of 23 AGNs in Ma et al. 2024 (submitted) in the `lightcurves` directory.
 
 You are welcome to use and modify ICCF-Cut. If you do, please acknowledge its use with a citation to:
 
