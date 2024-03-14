@@ -27,4 +27,4 @@ We provide an example of Mrk 841 in `Example` directory. To extract the Halpha l
 You are welcome to use and modify ICCF-Cut. If you do, please acknowledge its use with a citation to:
 
 * [Ma et al. 2023](https://iopscience.iop.org/article/10.3847/1538-4357/acc4c1)
-* Ma et al. 2024 (in preparation).
+* Ma et al. 2024 (submitted).
