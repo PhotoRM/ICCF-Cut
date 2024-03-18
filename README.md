@@ -28,4 +28,4 @@ We provide the data of the final lightcurves used for the delay estimations of 2
 You are welcome to use and modify ICCF-Cut. If you do, please acknowledge its use with a citation to:
 
 * [Ma et al. 2023](https://iopscience.iop.org/article/10.3847/1538-4357/acc4c1)
-* Ma et al. 2024 (submitted).
+* [Ma et al. 2024](https://arxiv.org/abs/2403.10223) (ApJ accepted).
