@@ -23,7 +23,7 @@ We provide an example of Mrk 841 in the `Example` directory. To extract the Halp
 
     $ python iccfcut.py Mrk841g.txt Mrk841r.txt 0.18
 
-We provide the data of the final lightcurves used for the delay estimations of 23 AGNs in Ma et al. 2024 (submitted) in the `lightcurves` directory.
+We provide the data of the final lightcurves used for the delay estimations of 23 AGNs in [Ma et al. 2024](https://iopscience.iop.org/article/10.3847/1538-4357/ad34d6) in the `lightcurves` directory.
 
 You are welcome to use and modify ICCF-Cut. If you do, please acknowledge its use with a citation to:
 
